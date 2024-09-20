@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #50b3a2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#avatar img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.content-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-button {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* 确保padding不会增加按钮的总宽度 */
+}
+
+/* 为<a>标签的按钮添加额外的样式，使其与<button>一致 */
+a.nav-button {
+    display: inline-block;
+    line-height: normal; /* 重置行高 */
+}
+
+/* 斗鱼直播按钮样式 */
+.douyu-button {
+    background-color: #ff5f5f;
+    color: white;
+    border-color: #ff5f5f;
+}
+.douyu-button:hover {
+    background-color: #ff4040;
+    border-color: #ff4040;
+}
+
+/* Bilibili 按钮样式 */
+.bilibili-button {
+    background-color: #00a1d6;
+    color: white;
+    border-color: #00a1d6;
+}
+.bilibili-button:hover {
+    background-color: white;
+    color: #00a1d6;
+}
+
+/* 抖音按钮样式 */
+.douyin-button {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.douyin-button:hover {
+    background-color: #333;
+}
+
+/* AcFun 按钮样式 */
+.acfun-button {
+    background-color: #fd4c5d;
+    color: white;
+    border-color: #fd4c5d;
+}
+.acfun-button:hover {
+    background-color: white;
+    color: #fd4c5d;
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 20px;
+}
+
+#content-frame {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+footer {
+    background: #50b3a2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
